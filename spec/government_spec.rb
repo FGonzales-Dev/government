@@ -7,8 +7,8 @@ describe Government do
   end
 
   context "::GOVERNMENT" do
-    it "should be 201" do
-      Government::GOVERNMENT.count.should == 201
+    it "should be 12" do
+      Government::GOVERNMENT.count.should == 12
     end
   end
 

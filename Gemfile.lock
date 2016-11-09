@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nationality (0.0.1)
+    government (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -21,7 +21,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nationality!
+  government!
   rake (~> 0.4.8)
   rspec (~> 2.13, >= 2.13.0)
 

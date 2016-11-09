@@ -1,6 +1,6 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'nationality/version'
+require 'government/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "government"
@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["francisgonzales.developer@gmail.com"]
   gem.description   = %q{Provides listing of different forms of government that you may need in your ruby applications.}
   gem.summary       = %q{List of Government}
-  gem.homepage      = "https://github.com/FrancisMG/government"
+  gem.homepage      = "https://github.com/"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = ">= 1.9.2"
 
-  gem.add_development_dependency "rake", '~> 0.4.8'
+  gem.add_development_dependency "rake"
   gem.add_development_dependency 'rspec', '~> 2.13', '>= 2.13.0'
   
 end
