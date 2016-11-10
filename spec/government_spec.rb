@@ -12,6 +12,12 @@ describe Government do
     end
   end
 
+  context "::GOVERNMENT" do
+    it "should be 12" do
+      Government::CURRENCY.count.should == 12
+    end
+  end
+
   context "::REGION_DATA" do
     let(:countries) { Government::YML_GOVERNMENT.map { |_, v| v}.flatten.sort }
 
