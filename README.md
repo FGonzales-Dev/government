@@ -26,7 +26,7 @@ Or install it yourself as:
 This gem provides the following constant arrays:
 
 * `Government::GOVERNMENT`
-* `Government::CURRENCY`
+* `Gmt::GMT`
 
 ## Contributing
 
